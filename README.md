@@ -305,16 +305,16 @@ jobs:
 
 #### 使用 GitHub Pages 預設域名
 
-如果使用 `https://[你的用戶名].github.io/c2rust.dev/`，需在 `config.toml` 中設定：
+如果使用 `https://fatfingererr.github.io/c2rust.dev/`，需在 `config.toml` 中設定：
 
 ```toml
-base_url = "https://[你的用戶名].github.io/c2rust.dev"
+base_url = "https://fatfingererr.github.io/c2rust.dev"
 ```
 
 #### 使用自定義域名
 
 1. 在 GitHub 儲存庫 **Settings** → **Pages** → **Custom domain** 設定域名（如 `c2rust.dev`）
-2. 在 DNS 提供商設定 CNAME 記錄指向 `[你的用戶名].github.io`
+2. 在 DNS 提供商設定 CNAME 記錄指向 `fatfingererr.github.io`
 3. 在 `config.toml` 中設定：
 
 ```toml
@@ -407,7 +407,7 @@ git submodule update --init --recursive
 
 確認 `base_url` 與實際部署的 URL 一致：
 
-- GitHub Pages 預設域名：`https://[你的用戶名].github.io/c2rust.dev`
+- GitHub Pages 預設域名：`https://fatfingererr.github.io/c2rust.dev`
 - 自定義域名：`https://c2rust.dev`
 
 修改後重新構建並部署。
