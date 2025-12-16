@@ -1,0 +1,7 @@
+[package]
+name = "eprintln"
+edition = "2021"
+
+[[bin]]
+name = "testrs"
+path = "test.rs"

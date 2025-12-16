@@ -1,0 +1,6 @@
+[submodule "themes/goyo"]
+	path = themes/goyo
+	url = https://github.com/hahwul/goyo
+[submodule ".claude"]
+	path = .claude
+	url = https://github.com/fatfingererr/.claude.git
