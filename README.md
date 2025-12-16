@@ -1,4 +1,4 @@
-# impl<C> Fun for Rust
+# impl&lt;C&gt; Fun for Rust
 
 一個專注於 Rust 與 C 性能對比的 Tech Blog，提供實用的代碼範例、性能測試結果與詳細的技術解說。
 
@@ -168,7 +168,7 @@ graph TD;
 ### 站點基本設定
 
 ```toml
-title = "impl<C> Fun for Rust"
+title = "impl&lt;C&gt; Fun for Rust"
 base_url = "https://c2rust.dev"  # 部署時必須正確設定
 compile_sass = false
 build_search_index = true
@@ -186,7 +186,7 @@ highlight_code = true
 ```toml
 [extra]
 # Logo 設定
-logo_text = "impl<C> Fun for Rust"
+logo_text = "impl&lt;C&gt; Fun for Rust"
 
 # 色彩設定
 default_colorset = "dark"    # 預設主題："dark" 或 "light"
@@ -202,7 +202,7 @@ footer_html = "Powered by <a href='https://www.getzola.org'>Zola</a>"
 disable_theme_toggle = false  # 設為 true 則隱藏主題切換按鈕
 
 # 編輯連結（可選）
-edit_url = ""  # 例如："https://github.com/你的用戶名/c2rust.dev/edit/master"
+edit_url = ""  # 例如："https://github.com/fatfingererr/c2rust.dev/edit/master"
 ```
 
 ### 導航選單配置
@@ -213,7 +213,7 @@ edit_url = ""  # 例如："https://github.com/你的用戶名/c2rust.dev/edit/ma
 [extra]
 nav = [
   { name = "文章", url = "/", type = "url", icon = "fa-solid fa-book" },
-  { name = "GitHub", url = "https://github.com/你的用戶名/c2rust.dev", type = "url", icon = "fa-brands fa-github" },
+  { name = "GitHub", url = "https://github.com/fatfingererr/c2rust.dev", type = "url", icon = "fa-brands fa-github" },
   { name = "更多", type = "dropdown", icon = "fa-solid fa-link", members = [
     { name = "關於", url = "/about", type = "url", icon = "fa-solid fa-user" }
   ] }
