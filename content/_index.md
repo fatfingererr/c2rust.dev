@@ -1,6 +1,7 @@
 +++
 template = "landing.html"
 title = "Home"
+sort_by = "weight"
 
 [extra]
 version = "v0.1.0"
@@ -13,7 +14,7 @@ badge = "🌐 This blog is currently written in Chinese"
 description = "Ricky 的 Rust 主題技術部落格"
 image = "/images/landing.jpg" # Background image
 cta_buttons = [
-    { text = "cargo read", url = "/get-started/installation/", style = "primary" },
+    { text = "cargo read", url = "/toc", style = "primary" },
     { text = "View on GitHub", url = "https://github.com/fatfingererr/c2rust.dev", style = "secondary" },
 ]
 
