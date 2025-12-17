@@ -14,7 +14,7 @@ weight = 1
 1. **[靜態 T: 'static](/lifetime/static_t/)**
 2. **[所有型別的超集合 T](/lifetime/generics_t/)**
 3. **[生命週期 'a](/lifetime/lifetime_a/)**
-4. **[類型限制 T: 'a](/lifetime/ref_t_with_a/)**
+4. **[型別限制 T: 'a](/lifetime/ref_t_with_a/)**
 
 ### 日誌輸出
 
