@@ -42,11 +42,9 @@ sidebar_expand_depth = 1  # Sidebar expansion depth (max 5)
 
 # Navigation Configuration
 nav = [
-  { name = "Documents", url = "/introduction", type = "url" },
-  { name = "GitHub", url = "https://github.com/hahwul/goyo", type = "url" },
-  { name = "Links", type = "dropdown", members = [
-    { name = "Creator Blog", url = "https://www.hahwul.com", type = "url" }
-  ] }
+  { name = "About", url = "/about", type = "url" },
+  { name = "GitHub", url = "https://github.com/fatfingererr", type = "url" },
+  { name = "Twitter", url = "https://x.com/fatfingererr", type = "url" }
 ]
 
 # Navigation Configuration (i18n / optional)
