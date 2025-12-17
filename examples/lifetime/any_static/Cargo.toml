@@ -1,0 +1,11 @@
+[package]
+name = "any_static"
+edition = "2021"
+
+[[bin]]
+name = "test"
+path = "test.rs"
+
+[[bin]]
+name = "bad_any"
+path = "bad_any.rs"
